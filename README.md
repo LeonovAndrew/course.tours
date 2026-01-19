@@ -13,20 +13,23 @@
 ## 🏗️ Архитектура проекта
 
 ### 2.1. Структура каталогов
+<pre>
 apps/
-├── customer/ # Клиентская часть (frontend)
-│ ├── components/
-│ ├── controllers/
-│ ├── models/
-│ ├── views/
-│ └── config/
-├── backend/ # Админ-панель
-└── console/ # Консольные команды
+├── customer/           # Клиентская часть (frontend)
+│   ├── components/
+│   ├── controllers/
+│   ├── models/
+│   ├── views/
+│   └── config/
+├── backend/            # Админ-панель
+└── console/            # Консольные команды
 
-common/ # Общие компоненты
-data/ # Данные, миграции
-themes/ # Темы оформления
-vendor/ # Сторонние библиотеки
+common/                 # Общие компоненты
+data/                   # Данные, миграции
+themes/                 # Темы оформления
+vendor/                 # Сторонние библиотеки
+</pre>
+
 
 
 ### 2.2. Конфигурационные файлы
